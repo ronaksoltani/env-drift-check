@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en" data-project="env-drift-check">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f4f6f2">
+<meta name="description" content="Compare an example env file with a local environment snapshot. See missing, extra and duplicate key names while keeping every value out of the report.">
+<meta property="og:title" content="Env Drift Check — CONFIGURATION HYGIENE">
+<meta property="og:description" content="Compare an example env file with a local environment snapshot. See missing, extra and duplicate key names while keeping every value out of the report.">
+<meta property="og:image" content="preview.svg">
+<title>Env Drift Check — CONFIGURATION HYGIENE</title>
+<link rel="icon" href="preview.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script defer src="app.js"></script>
+</head>
+<body style="--accent:#F2C86E;--accent-ink:#382A0A">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="topline"><div class="topline__inner"><span><i></i>Independent portfolio tool · CONFIGURATION HYGIENE</span><span>LOCAL FIRST · NO API KEYS</span></div></div>
+<header class="site-header"><a class="brand" href="#top"><span class="brand-mark">ED</span><span>Env Drift Check<small>FIELD TOOLS / 2026</small></span></a><div class="header-actions"><span class="privacy-pill"><i class="privacy-dot"></i>Process in your browser</span><a class="source-link" href="https://github.com/ronaksoltani/env-drift-check">View source ↗</a></div></header>
+<main class="main" id="main"><section class="hero" id="top"><div class="hero-copy"><span class="eyebrow">CONFIGURATION HYGIENE / 07</span><h1>Find environment drift without showing secrets.</h1><p>Compare an example env file with a local environment snapshot. See missing, extra and duplicate key names while keeping every value out of the report.</p><div class="hero-tags"><span>Zero dependencies</span><span>Runs locally</span><span>MIT licensed</span></div></div><aside class="hero-stamp"><span>BUILT FOR</span><strong>Developers maintaining local and deployment environments</strong><p>Small tool. Clear boundaries.</p><span class="stamp-mark">E</span></aside></section><section class="workspace" id="workspace"><section class="panel"><div class="panel-head"><div><span class="kicker">KEY-ONLY COMPARISON</span><h2>Compare two environments</h2></div><button class="button button--quiet" id="sample">Load sample</button></div><div class="two-col"><label class="field"><span>Expected keys · example file</span><textarea id="expected" class="mono" rows="16" spellcheck="false"></textarea></label><label class="field"><span>Current keys · local snapshot</span><textarea id="actual" class="mono" rows="16" spellcheck="false"></textarea></label></div><div class="actions"><button class="button button--primary" id="run">Compare key sets</button><button class="button" id="copy-missing">Copy missing placeholders</button></div><div id="summary" class="notice">Values are never displayed in the comparison report.</div><div id="results" class="results" aria-live="polite"></div></section></section><section class="notes" id="notes"><article><h2>Privacy by default</h2><p>Processing happens in this browser tab. This project makes no analytics, model, upload or application API requests. Refreshing the page clears the working session.</p></article><article><h2>Scope and limitations</h2><p>Paste only data you are authorized to inspect. The app parses key names and discards values from its report; it does not edit files or validate whether a value is correct. Sample names and values are fictional portfolio content.</p></article></section></main><footer><div class="footer-inner"><span>© 2026 Ronak Soltani · MIT License</span><span>Env Drift Check · A local-first developer tool</span></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
